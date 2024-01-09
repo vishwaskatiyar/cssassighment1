@@ -1,0 +1,118 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+    --primaryBlue: rgb(52, 152, 219);
+    --primaryLightblue: rgb(41, 128, 185);
+    --primaryYellow: rgb(241, 196, 15);
+    --secondaryYellow: rgb(243, 156, 18);
+    --yellowDark: rgb(230, 126, 34);
+    --primaryRed: rgb(231, 76, 60);
+    --secondaryRed: rgb(192, 57, 43);
+    --primaryGreen: rgb(46, 204, 113);
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: var(--primaryBlue);
+    padding: 10px;
+    height: 100px;
+}
+
+.headingItems {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#mainDiv {
+    width: 65%;
+    height: 100%;
+    margin-left: 18%;
+}
+
+.navBar {
+    padding: 2px;
+    font-size: 1.8rem;
+    width: 95%;
+    margin-left: 2%;
+    background-color: var(--primaryLightblue);
+    color: var(--primaryBlue);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#mainArea > div {
+    text-align: left;
+    padding: 10px;
+}
+
+#mainArea {
+    height: 350px;
+    background-color: var(--primaryYellow);
+}
+
+.insideMainContent {
+    color: var(--primaryYellow);
+    font-size: 1.8rem;
+}
+
+.section1 {
+    height: 80px;
+    padding: 10px;
+    margin-bottom: 5%;
+    width: 90%;
+    margin-left: 2.5%;
+    background-color: var(--secondaryYellow);
+}
+
+.section2 {
+    background-color: var(--secondaryYellow);
+    padding: 10px;
+    width: 90%;
+    margin-left: 2.5%;
+}
+
+.articleVal {
+    text-align: center;
+    margin-bottom: 2%;
+    background-color: var(--yellowDark) !important;
+}
+
+aside {
+    background-color: var(--primaryRed);
+}
+
+.asideContent {
+    text-align: center;
+    color: var(--primaryRed);
+    font-size: 1.8rem;
+}
+
+.asideSectiion1 {
+    width: 90%;
+    background-color: var(--secondaryRed);
+    margin-left: 5%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.asideSectiion2 {
+    width: 90%;
+    background-color: var(--secondaryRed);
+    margin-left: 5%;
+    height: 120px;
+}
+
+footer {
+    padding: 8%;
+    background-color: var(--primaryGreen);
+}
