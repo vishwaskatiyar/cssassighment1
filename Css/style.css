@@ -4,9 +4,9 @@
 
 :root {
     --primaryBlue: rgb(52, 152, 219);
-    --primaryLightblue: rgb(41, 128, 185);
+    --primaryLightblue: rgb(0, 135, 225);
     --primaryYellow: rgb(241, 196, 15);
-    --secondaryYellow: rgb(243, 156, 18);
+    --secondaryYellow: rgb(255, 153, 0);
     --yellowDark: rgb(230, 126, 34);
     --primaryRed: rgb(231, 76, 60);
     --secondaryRed: rgb(192, 57, 43);
@@ -31,10 +31,13 @@ header {
 }
 
 #mainDiv {
-    width: 65%;
-    height: 100%;
-    margin-left: 18%;
-}
+    
+    width: 60% ;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    
+} 
 
 .navBar {
     padding: 2px;
@@ -115,4 +118,5 @@ aside {
 footer {
     padding: 8%;
     background-color: var(--primaryGreen);
+    background-color: pr;
 }
